@@ -1,0 +1,76 @@
+.header {
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 0;
+  position: fixed;
+  width: 100%;
+  padding: 0 2%;
+  z-index: 9;
+}
+
+.header__contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.header__brandImage {
+  width: 180px;
+  height: 80px;
+}
+
+
+.header__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__link {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 0.5rem 2rem;
+}
+
+.header__link:hover {
+  color: #439a86;
+  filter: drop-shadow(0 0 30px #439a86);
+}
+
+.header__right {
+  display: flex;
+}
+
+.header__signup-btn {
+  background: #007991;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: white;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.header__signup-btn:hover {
+  background: #439a86;
+  color: #fff;
+}
+
+.login__link, .register__link{
+  text-decoration: none;
+}
+
+.login__link {
+  color: #242424;
+}
+
+.login__link:hover {
+  color: #439a86;
+  filter: drop-shadow(0 0 30px #439a86);
+}
+
+.register__link {
+  color: #fff;
+}
